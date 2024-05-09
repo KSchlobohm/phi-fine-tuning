@@ -57,3 +57,31 @@
 1. The output should look like
 
     ![Graph](./assets/images/hello-world-mainpy.png)
+
+
+# Install CUDA
+1. https://developer.nvidia.com/cuda-downloads
+
+1. Validate by running the following command
+    ```
+    nvcc --version
+    ```
+
+# Install Torch
+1. https://pytorch.org/get-started/locally/
+1. Select the appropriate options for your system
+    ```
+    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    ```
+
+1. Validate by changing `main.py`
+    ```
+    import torch
+
+    print(torch.cuda.is_available())
+    exit()
+    ```
+
+# Install the build tools
+1. Install the build tools from the following link to support `flash-attn`
+    1. https://visualstudio.microsoft.com/visual-cpp-build-tools/
