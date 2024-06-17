@@ -82,6 +82,11 @@
     exit()
     ```
 
+1. Command line validat
+    ```sh
+    nvidia-smi
+    ```
+
 # Install the build tools
 1. Install the build tools from the following link to support `flash-attn`
     1. https://visualstudio.microsoft.com/visual-cpp-build-tools/
