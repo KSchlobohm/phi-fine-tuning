@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 # my fine-tuning results folder
-phi2-results2/
+phi1-results1/
 .vscode/settings.json
