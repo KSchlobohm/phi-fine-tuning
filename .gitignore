@@ -160,5 +160,6 @@ cython_debug/
 #.idea/
 
 # my fine-tuning results folder
+fine-tuned-model/
 phi1-results1/
 .vscode/settings.json
